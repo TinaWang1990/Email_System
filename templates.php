@@ -68,7 +68,7 @@ class templates {
 	*URL: templates/get
 	*will return:
 	*json:
-	*{
+	*[]
 	*  {
 	*	"id":1,
 	*	'content': 'hello',
@@ -82,7 +82,7 @@ class templates {
 	*	"var":     "var1,var2"	
 	*	}
 
-	*}
+	*]
 	*/
 	public function getMethod(){
 		$conn= new DBConnection();
